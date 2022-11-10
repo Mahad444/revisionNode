@@ -27,4 +27,9 @@ routes.patch('/',(req,res,next)=>{
         message:"Updated PATCH request"
     })
 })
+routes.delete('/',(req,res,next)=>{
+    res.status(200).json({
+        message:"Updated DELETE request"
+    })
+})
  module.exports = routes;
